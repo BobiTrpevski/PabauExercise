@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+* {
+    font-family: 'Roboto';
+}
+.logo-img {
+    width: 180px;
+}
+ul > li > a {
+    font-size: 20px;
+}
+span, p {
+    font-size: 20px;
+}
+.ham-responsive {
+    text-align: right;
+}
+.background {
+    background-image: url("Images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+.background-2 {
+    background-image: url("Images/15488.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60vh;
+    margin-top: 100px;
+}
+.margin-class {
+    margin-bottom: 100px;
+}
+.padding-class {
+    padding-bottom: 100px;
+}
+.margin-class-2 {
+    margin-bottom: 170px;
+}
+.h1-margin {
+    margin-top: 100px;
+}
+.background-navbar {
+    background-color: #ffff;
+}
+.background-opacity {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+}
+.card-img-top {
+    border-radius: 50%;
+    margin-top: -20px;
+}
+@media screen and (min-width:768px) {
+    .h1-margin {
+        margin-top: 150px;
+        font-size: 50px;
+    }
+    .margin-class-2 {
+        margin-bottom: 170px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .h1-responsive {
+        font-size: 1.75em;
+    }
+    .h2-margin {
+        margin-top: 1300px;
+    }
+    .h2-responsive {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .h2-responsive {
+        font-size: 18px;
+    }
+    span {
+        font-size: 16px;
+    }
+    li>a {
+        font-size: 18px;
+    }
+    .background {
+        background-image: url("Images/background.png");
+        background-position: center;
+        background-size: 100%;
+        height: 100vh;
+    }
+    .background-2  {
+        background-image: url("Images/15488.jpg");
+        background: 0%;
+    }
+    .card {
+        width: 90%;
+        position: static;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .h2-margin {
+        margin-top: 800px;
+    }
+    .span-right {
+        font-size: 10px;
+    }
+    .cs-class {
+        margin: 0px;
+    }
+}
