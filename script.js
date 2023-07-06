@@ -8,8 +8,14 @@ $("#createLeadBtn").click(function() {
   $.ajax({
     url: `https://migration.pabau.me/OAuth2/leads/lead-curl.php?api_key=${apikey}&redirect_link=${redirectLink}&Fname=${firstName}firstName&Lname=${lastName}&email=${email}`,
     type: "POST",
-    dataType: 'jsonp'
+    dataType: 'jsonp',
+    success: function (response) {
+      toastr.success('Contact is succesfully added')
+    },
+    error: function (error) {
+      toastr.error('There has been an error')
+    }
   });
-  
+
   return false;
 });
